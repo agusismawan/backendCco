@@ -9,6 +9,8 @@ const Karyawan = db.define(
         nomor_hp: { type: sequelize.STRING },
         foto: { type: sequelize.STRING },
         pn: { type: sequelize.STRING },
+        fungsi: { type: sequelize.STRING },
+        is_active: { type: sequelize.INTEGER },
     },
     {
         freezeTableName: true
